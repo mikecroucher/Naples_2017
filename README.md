@@ -1,3 +1,3 @@
-# I, Research Software Engineer
+# Next generation computational and mathematical teaching
 
-Talk for the 2017 RSE conference in Manchester.
+https://mikecroucher.github.io/Naples_2017/
