@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+       <section data-background="background.png">
+       <h2 class='glow'>Project Jupyter</h2>
+			 <h3 class='glow'>Next generation computational and mathematical teaching</h3>
+			 <p>Mike Croucher</p>
+			 <p>Co-Founder of Sheffield RSE group <a href="http://rse.shef.ac.uk/">http://rse.shef.ac.uk/</a></p>
+			 <p>Twitter: <a href="https://twitter.com/walkingrandomly">@walkingrandomly</a></p>
+			 <p></p>
+       </section>
+
+			 <section data-background="background.png">
+       <h2 class='glow'>Research Software Engineer</h2>
+			 <p class="fragment fade-in">New role in UK academia since 2012</p>
+			 <p class="fragment fade-in">Focus on software and computing rather than papers</p>
+       </section>
+
+			 <section data-background="background.png">
+			<figure>
+			<img src="./mountain_guide.png">
+			<figcaption>Copyright: <a href='https://www.123rf.com/profile_niserin'>niserin / 123RF Stock Photo</a></figcaption>
+		</figure>
+			 </section>
+
+			 <section data-background="background.png">
+				<h2><embossed>Our mission</embossed></h2>
+				<p>Enhance The University of Sheffield's capacity to produce high quality, efficient and sustainable research software</p>
+				<p class="fragment fade-in">....for every academic subject</p>
+				<p class="fragment fade-in">....in all relevant languages and technologies</p>
+			</section>
+
+			<section data-background="background.png">
+				 <h2 class='glow'>Sheffield RSE team</h2>
+				<img src="./RSE_2017.png" width="80%">
+			</section>
+
+			<section data-background="dagmar_grant.png" data-background-size="contain">	</section>
+			<section data-background="faster.png" data-background-size="contain">	</section>
+			<section data-background="Grants_FlyBrain.png" data-background-size="contain">	</section>
+			<section data-background="background.png">
+				<h2 class='glow'>High Performance Computing in Urban Studies teaching</h2>
+				 <img src="./urban_studies.png">
+			</section>
+			<section data-background="anna_tweet.png" data-background-size="contain">	</section>
+			<section data-background="ODK.png" data-background-size="contain"></section>
+
+			<section data-background="background.png">
+			 <h2 class='glow'>RSE - More Information</h2>
+      <ul>
+				<li>UK RSE Association <a href="http://rse.ac.uk/about/the-association/">http://rse.ac.uk/about/the-association/</a></li>
+				<li>Software Sustainability Institute<a href="https://www.software.ac.uk/">https://www.software.ac.uk/</a></li>
+				<li>Research Software Engineers: State of the Nation Report 2017 <a href="https://zenodo.org/record/495360#.WhVtmrD81E5">https://zenodo.org/record/495360#.WhVtmrD81E5</a></li>
+			</ul>
+		 </section>
+
+    <section data-background="jupyter.png" data-background-size="contain"></section>
+
+		<section data-background="background.png">
+			<h2 class='glow'>Jupyter and Sheffield</h2>
+			<img src="./ODK_logo.png" width="20%">
+			<p>Funded by OpenDreamKit, an EU H2020 Project</p>
+			<p class="fragment fade-in">Sheffield focus: Teaching and HPC uses of Jupyter</p>
+		</section>
+
+   <section data-background="notebook_example.png" data-background-size="contain"></section>
+
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
